@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(239, 165, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+button {
+  cursor: pointer;
+}
+.home {
+  margin: 20px auto;
+  width: 50%;
+}
+.home__block {
+  display: flex;
+  justify-content: space-between;
+}
+.ui__input {
+  margin-right: 20px;
+}
+.home__notifications {
+  text-align: center;
+}
+.home__notifications li {
+  background: aquamarine;
+  padding: 10px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home__notifications button {
+  background: brown;
+  border: 1px solid black;
+}
